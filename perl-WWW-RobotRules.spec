@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-URI >= 1.10
 %endif
+Requires:	perl-URI >= 1.10
 Conflicts:	perl-libwww < 6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -69,7 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/WWW/RobotRules.pm
 %{perl_vendorlib}/WWW/RobotRules
 %{_mandir}/man3/WWW::RobotRules*.3pm*
