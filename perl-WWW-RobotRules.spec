@@ -4,7 +4,6 @@
 #
 %define		pdir	WWW
 %define		pnam	RobotRules
-%include	/usr/lib/rpm/macros.perl
 Summary:	WWW::RobotRules - database of robots.txt-derived permissions
 Summary(pl.UTF-8):	WWW::RobotRules - baza danych uprawnień z robots.txt
 Name:		perl-WWW-RobotRules
