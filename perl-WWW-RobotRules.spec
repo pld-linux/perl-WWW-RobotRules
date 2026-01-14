@@ -8,7 +8,7 @@ Summary:	WWW::RobotRules - database of robots.txt-derived permissions
 Summary(pl.UTF-8):	WWW::RobotRules - baza danych uprawnień z robots.txt
 Name:		perl-WWW-RobotRules
 Version:	6.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
