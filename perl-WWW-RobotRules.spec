@@ -7,13 +7,13 @@
 Summary:	WWW::RobotRules - database of robots.txt-derived permissions
 Summary(pl.UTF-8):	WWW::RobotRules - baza danych uprawnień z robots.txt
 Name:		perl-WWW-RobotRules
-Version:	6.02
-Release:	2
+Version:	6.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-module/WWW/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b7186e8b8b3701e70c22abf430742403
+# Source0-md5:	9c821b8f6eb0f5ddb86f1d338b493879
 URL:		https://metacpan.org/dist/WWW-RobotRules
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
