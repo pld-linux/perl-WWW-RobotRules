@@ -24,9 +24,13 @@ BuildRequires:	perl-Test-Simple >= 0.96
 BuildRequires:	perl-URI >= 1.10
 %endif
 Requires:	perl-URI >= 1.10
+# only for optional WWW:RobotRules::DB_File
+Suggests:	perl-DB_File
 Conflicts:	perl-libwww < 6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq_perl	DB_File
 
 %description
 This module parses /robots.txt files as specified in "A Standard for
