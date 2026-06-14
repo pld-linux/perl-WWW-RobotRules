@@ -12,13 +12,15 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/WWW/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/WWW/OALDERS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9c821b8f6eb0f5ddb86f1d338b493879
 URL:		https://metacpan.org/dist/WWW-RobotRules
+BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
+BuildRequires:	perl-Test-Simple >= 0.96
 BuildRequires:	perl-URI >= 1.10
 %endif
 Requires:	perl-URI >= 1.10
